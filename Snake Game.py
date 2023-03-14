@@ -238,7 +238,7 @@ if __name__ == "__main__":
 
     # Displaying game instructions if the window has not been closed.
     if endGame == False:
-        message("You are the white dot, the green dot is food.", white)
+        message("You are the white dot, the green dot is the food.", white)
         pygame.display.update()
         time.sleep(3)
         dis.fill(black)
